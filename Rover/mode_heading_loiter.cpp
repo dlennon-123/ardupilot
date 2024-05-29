@@ -43,7 +43,7 @@ void ModeHeadingLoiter::update()
 }
 
 // get desired location
-bool ModeLoiter::get_desired_location(Location& destination) const
+bool ModeHeadingLoiter::get_desired_location(Location& destination) const
 {
     destination = _destination;
     return true;
